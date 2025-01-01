@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
-import BookDetails from "./components/BookDetails";
-import Wishlist from "./components/Wishlist";
+import Home from "./Components/Home";
+import BookDetails from "./Components/BookDetails";
+import Wishlist from "./Components/Wishlist";
 
 function App() {
     return (
