@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Book Web App
+
+This project is a Book Web App that allows users to search for books, view book details, and manage a wishlist. It is built using React and leverages the Google Books API for fetching book data.
+
+## Features
+
+- **Search for Books**: Users can search for books by entering a query.
+- **View Book Details**: Users can view detailed information about a selected book.
+- **Manage Wishlist**: Users can add books to a wishlist and view their wishlist.
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Prerequisites
 
-In the project directory, you can run:
+- Node.js
+- npm (Node Package Manager)
 
-### `npm start`
+### Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/SKYEFXTS/book-web-app.git
+   cd book-web-app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install dependencies:
+   ```sh
+   npm install
+   
+### Running the App
 
-### `npm test`
+To run the app in development mode, use:
+  ```sh
+     npm start
+   ```
+Open http://localhost:3000 to view it in your browser. The page will reload when you make changes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Building the App
 
-### `npm run build`
+To build the app for production, use:
+  ```sh
+     npm run build
+   ```
+This will create a build folder with a production build of the app.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `src/`: Contains the source code of the application.
+   - `components/`: Contains React components.
+      - `Home.js`: Component for the home page where users can search for books.
+      - `BookDetails.js`: Component for displaying detailed information about a book.
+      - `Wishlist.js`: Component for managing and viewing the wishlist.
+   - `App.js`: Main application component that sets up routing.
+   - `App.css`: Main stylesheet for the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `public/`: Contains static assets and the HTML template.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React**: JavaScript library for building user interfaces.
+- **Google Books API**: API used to fetch book data for searching and viewing details.
+- **CSS**: Stylesheet for the overall app's layout and design.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is developed and maintained by **Oshan Nanayakkara**.  
+You can reach me at: [oshannr@gmail.com](mailto:oshannr@gmail.com)

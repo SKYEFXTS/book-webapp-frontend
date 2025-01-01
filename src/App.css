@@ -1,18 +1,32 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #0056b3;
+  --background-color: #ffefba;
+  --text-color: #333;
+  --secondary-text-color: #555;
+  --error-color: red;
+  --font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+}
+
 .App {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to right, #ffefba, #ffffff);
+  background: linear-gradient(to right, var(--background-color), #ffffff);
   min-height: 100vh;
   padding: 20px;
 }
 
 h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: var(--text-color);
 }
 
 h3, h5 {
-  color: #555;
+  color: var(--secondary-text-color);
 }
 
 .search-bar {
@@ -47,7 +61,7 @@ h3, h5 {
 }
 
 .search-bar button:hover {
-  background-color: #0056b3;
+  background-color: var(--secondary-color);
 }
 
 .search-icon {
@@ -56,7 +70,7 @@ h3, h5 {
 }
 
 .error {
-  color: red;
+  color: var(--error-color);
   margin: 10px;
   font-weight: bold;
 }
@@ -93,7 +107,7 @@ h3, h5 {
 
 .book-item h3 {
   font-size: 1.2rem;
-  color: #333;
+  color: var(--text-color);
   margin: 5px 0;
 }
 
@@ -130,7 +144,7 @@ h3, h5 {
 }
 
 .book-details button {
-  background-color: #007bff;
+  background-color: var(--primary-color);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -141,14 +155,14 @@ h3, h5 {
 }
 
 .book-details button:hover {
-  background-color: #0056b3;
+  background-color: var(--secondary-color);
 }
 
 .book-details a {
   display: inline-block;
   margin-top: 20px;
   text-decoration: none;
-  color: #007bff;
+  color: var(--primary-color);
   font-size: 1em;
 }
 
@@ -161,7 +175,7 @@ h3, h5 {
   margin-top: 20px;
   margin-left: 20px;
   text-decoration: none;
-  color: #007bff;
+  color: var(--primary-color);
   font-size: 1em;
 }
 
